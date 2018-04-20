@@ -1,0 +1,31 @@
+{
+    "name": "studio24/mamp-php",
+    "type": "library",
+    "description": "CLI command to help manage PHP versions on the command line when using MAMP for local development",
+    "keywords": [
+        "mamp",
+        "php"
+    ],
+    "homepage": "https://github.com/studio24/mamp-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon R Jones",
+            "email": "hello@studio24.net",
+            "homepage": "https://studio24.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "symfony/console": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Studio24\\MampPHP\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    }
+}
