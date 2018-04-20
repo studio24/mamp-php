@@ -26,10 +26,12 @@ cd mamp-php
 composer install
 ```
 
-## bash_profile
-Make sure you don't already have a custon PHP version set in your `~/.bash_profile` file, for example `/Applications/MAMP/bin/php/php7.1.8/bin/php`
+## MAMP
 
-MAMP's default functionality saves paths in `~/.profile` which if you don't want to use MAMP to manange CLI paths you will need to remove.
+In the _PHP_ section ensure the option _Make this version available in the command line_ is not selected.
+
+## bash_profile
+Make sure you don't already have a custon PHP version set in your `~/.bash_profile` file, for example `/Applications/MAMP/bin/php/php7.1.8/bin/php`. 
 
 ## License
 
